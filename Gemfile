@@ -17,6 +17,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'devise-i18n'
 gem 'bootstrap-sass', '~> 3.3.5'
+gem "font-awesome-rails"
 
 gem 'stock_quote'
 

@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   
-  devise_for :users, :controllers => { :registrations => "user/registrations", confirmations: 'confirmations' }
+  devise_for :users, :controllers => { :registrations => "user/registrations" }
 
+# devise_for :users, :controllers => { :registrations => "user/registrations", confirmations: 'confirmations' }
   
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :user_stocks, except: [:show, :edit, :update]
